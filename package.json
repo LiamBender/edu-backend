@@ -1,0 +1,27 @@
+{
+  "name": "edu-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamBender/edu-backend.git"
+  },
+  "author": "Liam Bendiksen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamBender/edu-backend/issues"
+  },
+  "homepage": "https://github.com/LiamBender/edu-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "expess": "^0.0.1-security",
+    "express": "^4.17.3",
+    "healthcheck": "^0.1.3"
+  }
+}
